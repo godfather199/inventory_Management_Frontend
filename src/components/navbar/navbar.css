@@ -1,0 +1,112 @@
+.navbarContainer {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: linen;
+    box-shadow: 0px 0px 25px -6px black;
+}
+
+.navbarWrapper {
+   
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbarLeft {
+   
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbarTitle {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold; 
+    
+}
+
+.navbarCenter {
+    
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.navbarProduct {
+   
+    text-align: center;
+    width: 160px;
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.navbarProduct:hover {
+    color: white;
+    background-color: coral;
+}
+
+.navbarRight {
+    
+    flex: 5;
+}
+
+.navbarList {
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbarListItem {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.navbarListItem:hover {
+    background-color: coral;
+    color: white;
+}
+
+.navbarLogout {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.navbarLogout:hover {
+    background-color: coral;
+    color: white;
+}
